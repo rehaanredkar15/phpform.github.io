@@ -22,4 +22,7 @@
             "composer dump-autoload -o"
         ],
         "post-update-cmd": [
-            "composer dump-
+            "composer dump-autoload -o"
+        ]
+    }
+}
