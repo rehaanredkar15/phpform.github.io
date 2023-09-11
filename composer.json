@@ -11,12 +11,10 @@
     "require": {
         "php": "^7.0"
     },
-    "require-dev": {
-        // Add development dependencies here (if any)
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
-            "YourNamespace\\": "src/"
+            "": ""
         }
     },
     "scripts": {
@@ -24,7 +22,4 @@
             "composer dump-autoload -o"
         ],
         "post-update-cmd": [
-            "composer dump-autoload -o"
-        ]
-    }
-}
+            "composer dump-
