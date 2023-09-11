@@ -8,13 +8,14 @@
             "email": "your.email@example.com"
         }
     ],
+    "license": "proprietary", // Add a license
     "require": {
         "php": "^7.0"
     },
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "": ""
+            "YourNamespace\\": "src/"
         }
     },
     "scripts": {
